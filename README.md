@@ -1,6 +1,6 @@
 Portfolio Website Generator
 
-Dynamic Portfolio Website** – Generate your own portfolio by adding your details, projects, and skills!  
+Dynamic Portfolio Website – Generate your own portfolio by adding your details, projects, and skills!  
 
 Features
 - ✅ Showcase Your Work : Display projects, skills, and achievements.  
