@@ -1,4 +1,4 @@
-Portfolio Website Generator
+🌟 Portfolio Website Generator 🌟
 
 Dynamic Portfolio Website – Generate your own portfolio by adding your details, projects, and skills!  
 
