@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="greeting">
+   <h1>Ignite Your Brilliance!⚡</h1>
+   <p>Unleash your potential and create a stunning professional portfolio in just one click 🚀</p>
+  </div>
+  <div class="form-container">
+    <h2>Portfolio Form</h2>
+    <form id="portfolioForm">
+      <label>Name:</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+
+      <label>About Me:</label>
+      <textarea id="about" placeholder="About Me"></textarea>
+
+      <label>Skills (comma separated):</label>
+      <input type="text" id="skills" placeholder="e.g. Java, Python, HTML">
+
+      <label>Projects (comma separated):</label>
+      <input type="text" id="projects" placeholder="e.g. Portfolio Website">
+
+      <label>Upload Resume (.pdf, .txt, .doc):</label>
+      <input type="file" id="resume" accept=".pdf,.txt,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+      <button type="submit">Generate & Download Portfolio</button>
+    </form>
+  </div>
+  <!-- Live Preview Greeting -->
+<p style="text-align:center; font-size:16px; color:#e0e0e0; font-style:italic; margin-top:30px;">
+  ✨ Here’s a live preview of your portfolio ✨
+</p>
+<h2 style="text-align:center; margin-top:10px; color:#ffcc00;">Live Preview</h2>
+<div id="preview" class="preview-card"></div>
+<script src="script.js"></script>
+</body>
+</html>
